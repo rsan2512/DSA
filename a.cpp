@@ -15,16 +15,16 @@ void sayhello(){
 
 }
 int main (){
-    book book1;
-    book1.name = "Roshan";
-    book1.books = 3;
-    cout << book1.name;
-    sayhello();
-    int age = 45;
-    int *pAge= &age;
-    cout << pAge <<endl;
-    cout << *pAge <<endl;
-    cout << *&age;
+    // book book1;
+    // book1.name = "Roshan";
+    // book1.books = 3;
+    // cout << book1.name;
+    // sayhello();
+    // int age = 45;
+    // int *pAge= &age;
+    // cout << pAge <<endl;
+    // cout << *pAge <<endl;
+    // cout << *&age;
     // int age;
     //cout << "Enter your age : ";
     // cin >> age;
@@ -37,5 +37,8 @@ int main (){
     // cout << "i am "<< name <<" age " << age << endl; 
     // cout << name.substr(1,3);
     // cout << pow(2,5) << endl;
+    // int n=2;
+    // int* y=&n;
+    // cout<<y;
      return 0;
 }
