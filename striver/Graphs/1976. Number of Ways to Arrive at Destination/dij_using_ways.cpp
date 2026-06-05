@@ -39,12 +39,13 @@ public:
             for(auto next : adj[node]){
                 int v = next.first;
                 long long w = next.second;
-
+                
+                //first time 
                 if(d + w < dist[v]){
                     dist[v] = d + w;
                     ways[v] = ways[node];
                     pq.push({dist[v], v});
-                }
+                }//repeated
                 else if(d + w == dist[v]){
                     ways[v] = (ways[v] + ways[node]) % mod;
                 }
