@@ -1,42 +1,42 @@
 class Solution {
 public:
+    vector<pair<int,int>>dir={{1,0},{0,1},{-1,0},{0,-1}};
+
+    bool isValid(int x,int y,int n){
+        return x>=0 && y>=0 && x<n && y<n;
+    }
+    
+
+
     int swimInWater(vector<vector<int>>& grid) {
-        int n= grid.size();
-        priority_queue< //ele,x,y
-            vector<int>,
-            vector<vector<int>>,
-            greater<vector<int>>
-        > pq;
-
-        vector<vector<bool>> vis(n,vector<bool>(n,false));
-
-        pq.push({grid[0][0],0,0});
-
-        int dr[]={0,0,1,-1};
-        int dc[]={1,-1,0,0};
-
+        // min heap is to used 
+        // time till now ->{x,y}
+        int n=grid.size();
+        priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>>>pq;
+        pq.push({grid[0][0],{0,0}});
+        vector<vector<int>>time(n,vector<int>(n,INT_MAX)); 
+        time[0][0]=grid[0][0];
         while(!pq.empty()){
-            auto curr = pq.top();
+            int time_till_now=pq.top().first;
+            int x=pq.top().second.first;
+            int y=pq.top().second.second;
             pq.pop();
-            auto mx=curr[0];
-            auto x=curr[1];
-            auto y=curr[2];
-
-            if (vis[x][y]) continue;
-            vis[x][y]=true;
-
-            if(x==n-1 && y==n-1) return mx;
-
-            for(int i=0;i<4;i++){
-                int nr = x + dr[i];
-                int nc = y + dc[i];
-
-                if(nr>=0 && nc>=0 && nr<n && nc<n && !vis[nr][nc]){
-                    int newmx=max(mx,grid[nr][nc]);
-
-                    pq.push({newmx,nr,nc});
-                }
+            for(auto it:dir){
+                int new_x=x+it.first;
+                int new_y=y+it.second;
+                if(isValid(new_x,new_y,n)){
+                    int curr_time=grid[new_x][new_y];
+                    if(time[new_x][new_y]>max(curr_time,time_till_now)){
+                        time[new_x][new_y]=max(curr_time,time_till_now);
+                        pq.push({time[new_x][new_y],{new_x,new_y}});
+                    }
+                }       
             }
-        }return -1;
+
+        }
+
+        return time[n-1][n-1];
+
+
     }
 };
