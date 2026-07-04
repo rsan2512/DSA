@@ -1,23 +1,21 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, vector<int>& dp,int n){
-        if(n<0)return 0;  // if n becomes smaller than 0 arr ended 
-        
-        if(n==0) return nums[0];  // last num
-        
-        if(dp[n]!=-1) return dp[n];  //memoization
-
-        int pick = solve(nums,dp,n-2)+nums[n];  //picking curr house and skipping next one (n-2)
-        int notp = solve(nums,dp,n-1); // skipping current house 
-
-        return dp[n]=max(pick,notp); 
-    }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        vector<int> dp(n,-1);
+        
+        int prev,prev2,curr;
+        prev = nums[0];
+        prev2 = 0;
 
-        int ans = solve(nums,dp,n-1);
+        for(int i = 1;i<n;i++){
+            int take = nums[i]+ prev2;
 
-        return ans;
+            int nottake = 0+prev;
+
+            curr = max(take,nottake);
+            prev2 = prev;
+            prev = curr;
+        }
+        return prev;
     }
 };
