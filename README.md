@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/rsan2512/DSA/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/rsan2512/DSA/tree/master/0213-house-robber-ii) |
 | [0778-swim-in-rising-water](https://github.com/rsan2512/DSA/tree/master/0778-swim-in-rising-water) |
 ## Binary Search
 |  |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/rsan2512/DSA/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/rsan2512/DSA/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/rsan2512/DSA/tree/master/0213-house-robber-ii) |
 ## Memoization
 |  |
 | ------- |
