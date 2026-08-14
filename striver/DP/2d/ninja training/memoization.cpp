@@ -8,7 +8,7 @@ public:
               vector<vector<int>>& dp,
               vector<vector<int>>& task) {
 
-        if(n == 0) {
+        if(n == 0) {    //base case
 
             int maxi = 0;
 
@@ -21,12 +21,12 @@ public:
             return maxi;
         }
 
-        if(dp[n][last] != -1)
+        if(dp[n][last] != -1)  // memoization
             return dp[n][last];
 
         int maxi = 0;
 
-        for(int i = 0; i < 3; i++) {
+        for(int i = 0; i < 3; i++) {    // iterate over all tasks
 
             if(i != last) {
 
@@ -44,7 +44,7 @@ public:
 
         int n = matrix.size();
 
-        vector<vector<int>> dp(n, vector<int>(4, -1));
+        vector<vector<int>> dp(n, vector<int>(4, -1));    // 4 tasks 0,1,2,3(3 is for no task done on previous day)
 
         return solve(n-1, 3, dp, matrix);
     }
