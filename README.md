@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/rsan2512/DSA/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/rsan2512/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/rsan2512/DSA/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/rsan2512/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/rsan2512/DSA/tree/master/0455-assign-cookies) |
 | [0778-swim-in-rising-water](https://github.com/rsan2512/DSA/tree/master/0778-swim-in-rising-water) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
 | [0778-swim-in-rising-water](https://github.com/rsan2512/DSA/tree/master/0778-swim-in-rising-water) |
 ## Union-Find
 |  |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/rsan2512/DSA/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/rsan2512/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/rsan2512/DSA/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/rsan2512/DSA/tree/master/0416-partition-equal-subset-sum) |
 ## Memoization
 |  |
@@ -78,4 +81,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/rsan2512/DSA/tree/master/0455-assign-cookies) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
