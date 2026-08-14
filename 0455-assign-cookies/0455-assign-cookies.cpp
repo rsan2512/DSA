@@ -9,6 +9,7 @@ public:
             if(g[i]<=s[j]){
                 i++;
             }
+
             j++;
 
         }
