@@ -1,21 +1,21 @@
 class Solution {
 public:
     int fun(vector<int>& coins,int amt,vector<int>& dp){
-        if(amt == 0 ) return 0;
-        if(amt<0) return INT_MAX;
-
-        if(dp[amt]!=-1) return dp[amt];
-
+        dp[0] = 0;
+        
         int minsteps =INT_MAX;
-        for(int i =0;i<coins.size();i++){
-            if(coins[i]<=amt){
-                int cstep =fun(coins,amt-coins[i],dp);
-                if(cstep != INT_MAX) {
-                    minsteps = min(minsteps, cstep + 1);
+        for(int j =1;j<=amt;j++){
+            int minsteps =INT_MAX;
+            for(int i =0;i<coins.size();i++){
+                if(coins[i]<=j){
+                    int cstep =dp[j-coins[i]];
+                    if(cstep != INT_MAX) {
+                        minsteps = min(minsteps, cstep + 1);
+                    }
                 }
-            }
+            }dp[j]=minsteps;
         }
-        return dp[amt]=minsteps;
+        return dp[amt];
     }
     int coinChange(vector<int>& coins, int amount) {
         if(amount ==0)return 0;
