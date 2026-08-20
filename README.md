@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/rsan2512/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/rsan2512/DSA/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/rsan2512/DSA/tree/master/0494-target-sum) |
 | [0778-swim-in-rising-water](https://github.com/rsan2512/DSA/tree/master/0778-swim-in-rising-water) |
 ## Binary Search
 |  |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/rsan2512/DSA/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/rsan2512/DSA/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/rsan2512/DSA/tree/master/0494-target-sum) |
 ## Memoization
 |  |
 | ------- |
@@ -85,8 +87,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/rsan2512/DSA/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/rsan2512/DSA/tree/master/0322-coin-change) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/rsan2512/DSA/tree/master/0494-target-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/rsan2512/DSA/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
