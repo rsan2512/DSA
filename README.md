@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/rsan2512/DSA/tree/master/0494-target-sum) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/rsan2512/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-swim-in-rising-water](https://github.com/rsan2512/DSA/tree/master/0778-swim-in-rising-water) |
+| [1048-longest-string-chain](https://github.com/rsan2512/DSA/tree/master/1048-longest-string-chain) |
 ## Binary Search
 |  |
 | ------- |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/rsan2512/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/rsan2512/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/rsan2512/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [1048-longest-string-chain](https://github.com/rsan2512/DSA/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/rsan2512/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/rsan2512/DSA/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rsan2512/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/rsan2512/DSA/tree/master/0455-assign-cookies) |
+| [1048-longest-string-chain](https://github.com/rsan2512/DSA/tree/master/1048-longest-string-chain) |
 ## Greedy
 |  |
 | ------- |
@@ -109,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/rsan2512/DSA/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/rsan2512/DSA/tree/master/0455-assign-cookies) |
+| [1048-longest-string-chain](https://github.com/rsan2512/DSA/tree/master/1048-longest-string-chain) |
 ## Quicksort
 |  |
 | ------- |
@@ -138,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/rsan2512/DSA/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/rsan2512/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/rsan2512/DSA/tree/master/0583-delete-operation-for-two-strings) |
+| [1048-longest-string-chain](https://github.com/rsan2512/DSA/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/rsan2512/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/rsan2512/DSA/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rsan2512/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -155,4 +160,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/rsan2512/DSA/tree/master/0300-longest-increasing-subsequence) |
+## Hash Table
+|  |
+| ------- |
+| [1048-longest-string-chain](https://github.com/rsan2512/DSA/tree/master/1048-longest-string-chain) |
 <!---LeetCode Topics End-->
